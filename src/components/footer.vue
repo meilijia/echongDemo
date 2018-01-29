@@ -9,11 +9,12 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import '../assets/styles/common/varibles.styl'
   .footer
     position: fixed
     bottom: 0
-    height: 1.2rem
+    height: 1.1rem
     width: 100%
-    background: #000
     color: #fff
+    border-top: 1px solid $lightFontColor
 </style>
