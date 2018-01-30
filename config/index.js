@@ -10,7 +10,16 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+        '/v3': {
+            target: 'https://mallcdn.api.epet.com',
+            changeOrigin: true,
+            pathRewrite: {
+            '^/v3': '/v3'
+            }
+        }
+
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
