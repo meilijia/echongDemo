@@ -3,6 +3,9 @@
     <div class="shopping-new">
       <img src="../../assets/img/new.gif" class="shopping-img">
     </div>
+    <div class="shopping-day">
+      
+    </div>
   </div>
 </template>
 
@@ -21,4 +24,6 @@ export default {
       height: 2.4rem
       .shopping-img
         width: 100%
+    .shopping-day
+      height: 1.4rem
 </style>
