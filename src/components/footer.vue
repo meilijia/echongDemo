@@ -12,7 +12,7 @@ export default {
   .footer
     position: fixed
     bottom: 0
-    height: 1.2rem
+    height: 1rem
     width: 100%
     background: #000
     color: #fff
